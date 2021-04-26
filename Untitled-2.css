@@ -1,0 +1,136 @@
+html{
+    background-color: rgba(120, 11, 11, 1);
+}
+.toppart{
+    background-image:linear-gradient(to right, blue, red);
+    width:100%;
+    height:20px;
+}
+.center{
+    margin-left:130px;
+}
+.backgroundimage{
+    width:100%;
+    height:auto;
+}
+.link{
+    display:block;
+    text-decoration:none;
+    text-align: center;
+    color:black;
+    line-height:60px;
+    font-size:30px;
+    width: 200px;
+    height: 60px;
+    margin-right: 20px;
+    background-color: rgba(222,239,30,1);
+}
+.link1{
+    float:left;
+}
+.link2{
+    display:block;
+    text-decoration:none;
+    text-align: center;
+    color:black;
+    line-height:60px;
+    font-size:30px;
+    width: 300px;
+    height: 60px;
+    margin-right: 20px;
+    background-color: rgba(222,239,30,1);
+}
+.image1{
+    display:block;
+    width:100px;
+    height:auto;
+}
+.firstimage {
+    width: 300px;
+    height: auto;
+    float:left;
+    margin-right: 10%;
+}
+.secondimage {
+    width: 179px;
+    height: auto;
+    float:left;
+    margin-right: 10%;
+}
+.thirdimage {
+    width: 300px;
+    height: auto;
+    float:left;
+}
+body p{
+    text-align: center;
+}
+.clearfloat{
+    clear:both;
+}
+.container{
+    position:relative;
+    text-align: center;
+    color: white;
+}
+.thetext{
+    position:absolute;
+    bottom:-238px;
+    width:300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+}
+.container:hover>.thetext{
+    opacity: 1;
+    transition-duration: 2s;
+}
+.container1{
+    position:relative;
+    text-align: center;
+    color: white;
+}
+.thetext1{
+    position:absolute;
+    bottom:-238px;
+    width: 180px;
+    left: 446px;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity:0;
+}
+.container1:hover>.thetext1{
+    transition-duration: 2s;
+    opacity:1;
+}
+.container2{
+    position:relative;
+    text-align: center;
+    color: white;
+}
+.thetext2{
+    position:absolute;
+    bottom:-238px;
+    width:300px;
+    left: 772px;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+}
+.container2:hover>.thetext2{
+    transition-duration: 2s;
+    opacity: 1;
+}
+footer{
+    text-align: center;
+}
+.footer-bar{
+    margin-top:10px;
+    margin-bottom: 10px;
+    background-color:blue;
+    width:100%;
+    height:3px;
+}
+.contact{
+    font-size:20px;
+}
+.contact a{
+    color: yellow;
+}
